@@ -11,9 +11,9 @@ These are the static pages generated from my static site generator. If you want 
 [PHP](http://www.php.net/).
 
 ## Sections
-1. Home
-2. About
-3. Blog
-4. Classes
-5. Newletter
-5. Contact
+1. [Home](#)
+2. [About](#)
+3. [Blog](#)
+4. [Classes](#)
+5. [Newletter](#)
+5. [Contact](#)
