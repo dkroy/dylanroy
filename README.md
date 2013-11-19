@@ -15,5 +15,5 @@ These are the static pages generated from my static site generator. If you want 
 2. [About](#)
 3. [Blog](#)
 4. [Classes](#)
-5. [Newletter](#)
+5. [Newsletter](#)
 5. [Contact](#)
