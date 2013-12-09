@@ -17,3 +17,7 @@ These are the static pages generated from my static site generator. If you want 
 4. [Classes](#)
 5. [Newsletter](#)
 5. [Contact](#)
+
+## Build Process
+1. GruntJS for css/js minification
+2. Custom Flask Generator.
