@@ -82,4 +82,60 @@ def recent_feed():
     return feed.get_response()
 &lt;/code&gt;&lt;/pre&gt;</content>
   </entry>
+  <entry xml:base="http://www.dylanroy.com/feed.atom">
+    <title type="text">Hacker News Desktop: A Tutorial</title>
+    <id>http://www.dylanroy.com/blog/hacker-news-desktop/</id>
+    <updated>2013-03-24T00:00:00Z</updated>
+    <published>2013-03-24T00:00:00Z</published>
+    <link href="http://www.dylanroy.com/blog/hacker-news-desktop/" />
+    <author>
+      <name>Dylan Roy</name>
+    </author>
+    <content type="html">&lt;p&gt;Spent a night where I should be working on other things, creating a desktop application for Hacker News simple enough that anyone could use it. &lt;a target=&quot;_blank&quot; onclick=&quot;_gaq.push(['_trackEvent','Download','HackerNewsDesktop',this.href]);&quot; title=&quot;Hacker News Desktop&quot; href=&quot;/files/HackerNewsDesktop.exe&quot;&gt;Try it out!&lt;/a&gt;&lt;br /&gt;
+    &lt;img src=&quot;http://www.dylanroy.com/images/blog/hackernewsdesktop-1.png&quot; class=&quot;pull-right&quot; style=&quot;padding:12px;&quot; /&gt;
+    This application is portable and doesn't require an installer. You can refresh the feed whenever you want using the refresh button. Just like on the website it gives you an option to go directly to the story, or check out the comments to see what your fellow HNers have to say about the story. 
+    &lt;br&gt;&lt;br&gt;
+    You can resize Hacker News Desktop to be any size you want and it will adapt accordingly. I personally like to have it on the left side of my monitor maximized vertically.
+    &lt;br&gt;&lt;br&gt;
+    If you want to know how this was built I will be releasing a premium tutorial on RSS Clients, of which Hacker News Desktop is a type of this client. After going through my tutorial you should be able to built your own Hacker News Desktop and more. Then for those that do not want to learn my following my tutorial, you will be provided with the source code anyways.
+    &lt;br&gt;&lt;br&gt;
+    If you are interested in this tutorial subscribe below, I will periodically giving away free development tutorials, cheat sheets, and source code anyways. 
+&lt;/p&gt;
+
+&lt;form style=&quot;padding-left:14px;&quot; method=&quot;post&quot; action=&quot;http://api.dylanroy.com/subscribe/&quot;&gt;
+    &lt;label&gt;Subscribe&lt;/label&gt;
+    &lt;div class=&quot;input-append&quot;&gt;
+    &lt;input name=&quot;email&quot; type=&quot;text&quot; placeholder=&quot;to get this tutorial...&quot; /&gt;&lt;button name=&quot;submit&quot; type=&quot;submit&quot; class=&quot;btn&quot;&gt;Submit&lt;/button&gt;
+    &lt;/div&gt;
+&lt;/form&gt;</content>
+  </entry>
+  <entry xml:base="http://www.dylanroy.com/feed.atom">
+    <title type="text">Interface Instantiation vs Concrete Class Instantiation</title>
+    <id>http://www.dylanroy.com/blog/interface-instantiation-vs-concrete-class-instantiation/</id>
+    <updated>2013-03-24T00:00:00Z</updated>
+    <published>2013-03-24T00:00:00Z</published>
+    <link href="http://www.dylanroy.com/blog/interface-instantiation-vs-concrete-class-instantiation/" />
+    <author>
+      <name>Dylan Roy</name>
+    </author>
+    <content type="html">&lt;p&gt;Interfaces cannot be instantiated by definition. You always will instantiate a concrete class.&lt;/p&gt;
+
+&lt;p&gt;So in both statements your instance is actually of the concrete class type.&lt;/p&gt;
+
+&lt;p&gt;The difference between instantiating the concrete class via the interfaces, as far as C# is concerned, is that your car is something that implements the interface, which will only have the interface's methods available to it.&lt;/p&gt;
+
+&lt;p&gt;This can be demonstrated with the &lt;em&gt;Roadster &lt;/em&gt;concrete class &lt;em&gt;IVehicle&lt;/em&gt; interface. We will first build these classes, then make a few calls that will give an easily understandable and practical understanding of what we just explained, and how it will change how in this case, the &lt;em&gt;Roadster&lt;/em&gt;, will behave.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;IVehicle Class&lt;/strong&gt;&lt;/p&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;https://gist.github.com/dkroy/5325192.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;strong&gt;Roadster Class&lt;/strong&gt;&lt;/p&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;https://gist.github.com/dkroy/5325206.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;strong&gt;Implementing the Vehicles&lt;/strong&gt;&lt;/p&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;https://gist.github.com/dkroy/5325208.js&quot;&gt;&lt;/script&gt;</content>
+  </entry>
 </feed>
