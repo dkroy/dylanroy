@@ -1,0 +1,52 @@
+body { 
+	/* customize_body */ font:13px "Helvetica Neue",Helvetica,Arial,sans-serif; /* customize_body */
+	/* customize_body */ color:#555555; /* customize_body */
+	line-height: 18px;
+	/* customize_background */ background-color:#ffffff ; /* customize_background */ 
+	
+}
+
+
+img {border: 0px;}
+a,a:visited{
+	/* customize_link */  color: #0088cc;font:"Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif; /* customize_link */text-decoration:none;
+	
+}
+a:hover {
+	/* customize_link_hover */ color: #005580; /* customize_link_hover */text-decoration: underline;
+} 
+/* customize_miscellaneous */ 
+
+
+.ccm-ui a,.ccm-ui a :visited {
+    color: #0069D6;
+    font-weight: inherit;
+    line-height: inherit;
+    text-decoration: none;
+	letter-spacing: 0;   
+    text-shadow: 0;
+}
+.ccm-ui h1,.ccm-ui h2,.ccm-ui h3 ,.ccm-ui h4 ,.ccm-ui h5 ,.ccm-ui h6 {
+
+    letter-spacing: 0px;
+  
+    text-shadow: none;
+
+
+}
+.ccm-ui .tooltip
+{
+opacity: 1!important;
+position: relative!important;
+}
+ul.icon-select-list li {min-width:220px}
+/*Fix if u have second blue top edit bar activated*/
+div#ccm-highlighter {
+   
+    margin: -50px 0 0 0px;
+   
+}
+.ccm-ui .popover{top:-50px}
+/*end fix */
+
+/* customize_miscellaneous */

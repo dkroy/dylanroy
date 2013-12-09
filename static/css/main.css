@@ -1,0 +1,52 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:300,400,700);
+
+html, body {
+	margin: 0;
+	padding: 0;
+	background: #e5e5e5;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #1a1a1a;
+}
+h1, h2, h3, dl, dt, dd {
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	margin-bottom: 40px;
+	font: 400 30px/30px Oswald, Helvetica, Arial, sans-serif;
+	text-align: center;
+	text-shadow: 0 1px #fff;
+}
+h2 {
+	margin-bottom: 20px;
+	font: 300 20px/24px Oswald, Helvetica, Arial, sans-serif;
+	text-align: center;
+	text-shadow: 0 1px #fff;
+	text-transform: uppercase;
+}
+h3 {
+	margin-top: 40px;
+	font: 300 16px/20px Oswald, Helvetica, Arial, sans-serif;
+	text-align: center;
+	text-shadow: 0 1px #fff;
+	text-transform: uppercase;
+}
+h3 a {
+	display: inline-block;
+	margin: 0 10px;
+}
+h3 span {
+	position: relative;
+	top: -2px;
+}
+a {
+	text-decoration: none;
+	color: #78a5e3;
+}
+a:hover {
+	color: #5d80b0;	
+}
+.page {
+	margin: 0 auto;
+	padding: 40px;
+}

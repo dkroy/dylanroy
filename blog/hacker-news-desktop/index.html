@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <title>Hacker News Desktop | A Tutorial</title>
+    <meta name="description" content="Checkout the projects page to try out Hacker News Desktop.">
+    <meta name="keywords" content="Hacker News Desktop, YCombinator, HN Desktop" />
+    <link rel="stylesheet" href="/static/css/post.css">
+    <style>
+    h1,h2 {
+        margin-bottom: 6px !important;
+    }
+    </style>
+
+<meta name="description" content="Dylan's Online Portfolio">
+<meta name="generator" content="Custom CMS S3 Website Generator">
+<!-- Atom Feed -->
+<link href="/feed.atom"
+  rel="alternate"
+  title="Recent Changes"
+  type="application/atom+xml">
+      
+<link rel="shortcut icon" href="/static/images/octoghost-32x32.png" type="image/x-icon">
+<link rel="icon" href="/static/images/octoghost-32x32.png" type="image/x-icon">
+<link rel="apple-touch-icon" href="/static/images/octoghost-57x57.png">
+
+<script type="text/javascript" src="/static/js/jquery.js"></script>
+<style type="text/css"> 
+#blockStyle116Footer2 {
+	background-repeat:no-repeat; 
+	float:center;
+} 
+#blockStyle117Sidebar4 {
+	background-repeat:no-repeat;
+	margin:10px 10px 10px 10px;
+	padding:20px 20px 20px 20px; 	
+	background-color: #f0f0f0;	
+	border: 1px solid #d7d7d7;	
+	-moz-border-radius: 11px;	
+	-webkit-border-radius: 11px;	
+	-radius: 11px;	
+	behavior: url(/border-radius.htc);
+ } 
+#blockStyle137Sidebar5 {
+	background-repeat:no-repeat; 
+	margin:0 10px 0 10px; 
+} 
+.pcss3-accordion-input {
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    cursor: pointer !important;
+}
+@media (min-width:980px){
+    .hero2{
+        margin-top: 90px;
+    }
+}
+@media (max-width: 979px){
+	.navbar .btn.btn-navbar{
+		margin-top: 25px !important;
+	}
+    .navbar-fixed-top .navbar-inner {
+    min-height: 0 !important;
+    }
+}
+@media (max-width: 979px) and (min-width:450px){
+	.navbar .btn.btn-navbar {
+		margin-right:25px !important;
+	}
+}
+</style>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24733229-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script><!-- CSS	================================================== -->
+<link rel="stylesheet" type="text/css" href="/static/css/ccm.app.css">
+<link rel="stylesheet" media="screen" type="text/css" href="/static/css/typography.css">
+<link rel="stylesheet" media="screen" type="text/css" href="/static/css/bootstrap.css">
+<!--[if gte IE 9]>
+<link rel="stylesheet" type="text/css" href="/packages/major_marketing/themes/major_marketing/css/ie9.css" />
+	<![endif]-->
+
+	<!--[if !IE]><!-->
+<link rel="stylesheet" type="text/css" href="./css/ie9.css">
+<!--<![endif]-->
+<link rel="stylesheet" media="screen" type="text/css" href="/static/css/bootstrap-responsive.css">
+<link rel="stylesheet" media="screen" type="text/css" href="/static/css/docs.css">
+<link rel="stylesheet" media="screen" type="text/css" href="/static/css/prettify.css">
+<link rel="stylesheet" media="screen" type="text/css" href="/static/css/main.css" />
+<link rel="stylesheet" media="screen" type="text/css" href="/static/css/accordion.css" />
+<link rel="stylesheet" media="screen" type="text/css" href="/static/css/blog.css" />
+<!--[if lt IE 9]>
+	<link rel="stylesheet" type="text/css" href="/static/css/ie8-and-down.css" />
+<![endif]-->
+	
+	
+<!-- Edit Mode  ================================================== -->
+		<style type="text/css">
+		@font-face {
+		  font-family:AirStrip;
+		  src:url(/static/fonts/airstrip.eot), url(/static/fonts/airstrip.ttf);
+		}
+		#site-logo{
+			font-family: 'AirStrip';
+			margin-top:30px;
+			font-size:48px;
+		}
+        #blockStyle117Sidebar4{
+            margin-left:0 !important;
+            margin-right:0 !important;
+        }
+        .content-sbBlog-innerwrap img{
+            display: block;
+            max-width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        a.btn.btn-navbar{
+            background: #E6E6E6;
+        }
+        span.icon-bar{
+            background-color:black !important;
+        }
+        section {
+            padding-top:8px;
+        }
+        .pcss3-accordion {
+            box-shadow:none;
+        }
+</style>
+
+<body data-spy="scroll" data-target=".subnav" data-offset="50" cz-shortcut-listen="true">
+<!-- Bootstrap Effect -->
+<div class="navbar navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container">
+			<a class="btn btn-navbar" data-target=".nav-collapse" data-toggle="collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</a>
+			<div class="brand ">
+				<div id="HTMLBlock236" class="HTMLBlock">
+                    <a href="/" style="text-decoration:none;color:black;">
+					<img src="/static/images/octoghost-transparent.png" width="42px" height="55px" style="margin-bottom:-10px;">
+					<span id="site-logo">Dylan Roy</span></a>
+				</div>
+			</div>
+			<div class="nav-collapse ">
+				<ul class="nav">
+					<li class="first_top"><a class="btn disabled first_top" href="/">Home </a></li>
+					<li><a class="btn disabled " href="/about/">About </a></li>
+					<li><a class="btn disabled " href="/blog/">Blog </a></li>
+					<li><a class="btn disabled " href="/newsletter/">Newsletter </a></li>
+					<li><a class="btn disabled " href="/products/">Products </a></li>
+					<li><a class="btn disabled " href="/contact/">Contact </a></li>
+				</ul>										
+			</div>
+		</div>
+	</div>
+</div>		
+
+<div class="hero2">
+<div class="container">
+    <link rel="stylesheet" href="/static/css/syntax.css">
+</head>
+<body>
+
+
+<ul class="breadcrumb">
+  <li><a href="/blog/">Blog</a></li>
+  <li> <span class="divider">/</span></li>
+  <li class="active"><a href="/blog/hacker-news-desktop/">Hacker News Desktop</a></li>
+</ul>
+    <!-- Header -->
+    <div id="header">
+        <h1>Hacker News Desktop</h1>
+        
+            <h2>A Tutorial</h2>
+        
+        <h3 id="date">March 24</h3>
+    </div>
+
+    <!-- Content -->
+    <div id="content">
+        <p>Spent a night where I should be working on other things, creating a desktop application for Hacker News simple enough that anyone could use it. <a target="_blank" onclick="_gaq.push(['_trackEvent','Download','HackerNewsDesktop',this.href]);" title="Hacker News Desktop" href="/files/HackerNewsDesktop.exe">Try it out!</a><br />
+    <img src="http://www.dylanroy.com/images/blog/hackernewsdesktop-1.png" class="pull-right" style="padding:12px;" />
+    This application is portable and doesn't require an installer. You can refresh the feed whenever you want using the refresh button. Just like on the website it gives you an option to go directly to the story, or check out the comments to see what your fellow HNers have to say about the story. 
+    <br><br>
+    You can resize Hacker News Desktop to be any size you want and it will adapt accordingly. I personally like to have it on the left side of my monitor maximized vertically.
+    <br><br>
+    If you want to know how this was built I will be releasing a premium tutorial on RSS Clients, of which Hacker News Desktop is a type of this client. After going through my tutorial you should be able to built your own Hacker News Desktop and more. Then for those that do not want to learn my following my tutorial, you will be provided with the source code anyways.
+    <br><br>
+    If you are interested in this tutorial subscribe below, I will periodically giving away free development tutorials, cheat sheets, and source code anyways. 
+</p>
+
+<form style="padding-left:14px;" method="post" action="http://api.dylanroy.com/subscribe/">
+    <label>Subscribe</label>
+    <div class="input-append">
+    <input name="email" type="text" placeholder="to get this tutorial..." /><button name="submit" type="submit" class="btn">Submit</button>
+    </div>
+</form>
+    </div>
+
+</section>	
+</div>		</div>			
+
+<footer class="footer">
+	<div class="container">
+	<div class="row">
+<div class="span12">
+			<ul class="nav nav-pills">
+            <li class="first_top"><a class="first_top " href="/">Home </a></li>
+            <li><a href="/about/">About </a></li>
+            <li><a href="/newsletter/">Newsletter </a></li>
+            <li><a href="/blog/">Blog </a></li>
+            <li><a href="/products/">Products </a></li>
+            <li><a href="/contact/">Contact </a></li></ul>
+<div id="HTMLBlock170" class="HTMLBlock">
+<span>&copy; Copyright 2013 <a href="/">Dylan Roy</a>. All rights reserved.</span></div>	</div>		
+	</div>	
+	</div>
+	
+	<div id="footer-floor">
+	<div class="container">
+		<p class="pull-right">
+		<a href="#">Back to top</a>
+		</p>
+	</div>									
+	</div>		
+</footer>
+<script src="/static/js/prettify.js"></script>
+<script src="/static/js/bootstrap.min.js"></script>
+</body>
+</html>
